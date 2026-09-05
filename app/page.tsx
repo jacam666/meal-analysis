@@ -230,24 +230,24 @@ export default function Home() {
           <table className="w-full border-collapse border border-gray-300 dark:border-gray-700">
             <thead>
               <tr>
-                <th className="border border-gray-300 dark:border-gray-700 px-4 py-2">Meal</th>
-                <th className="border border-gray-300 dark:border-gray-700 px-4 py-2">Date</th>
-                <th className="border border-gray-300 dark:border-gray-700 px-4 py-2">Total Number</th>
+                <th className="border border-gray-300 dark:border-gray-700 px-4 text-white py-2">Meal</th>
+                <th className="border border-gray-300 dark:border-gray-700 px-4 text-white py-2">Date</th>
+                <th className="border border-gray-300 dark:border-gray-700 px-4 text-white py-2">Total Number</th>
               </tr>
             </thead>
             <tbody>
               {plan.rows.map((row) => (
                 <tr key={row.totalKey}>
-                  <td className="border border-gray-300 dark:border-gray-700 px-4 py-2">{row.meal}</td>
-                  <td className="border border-gray-300 dark:border-gray-700 px-4 py-2">{row.date}</td>
-                  <td className="border border-gray-300 dark:border-gray-700 px-2 py-2">
+                  <td className="border border-gray-300 dark:border-gray-700 px-4 text-white py-2">{row.meal}</td>
+                  <td className="border border-gray-300 dark:border-gray-700 px-4 text-white py-2">{row.date}</td>
+                  <td className="border border-gray-300 dark:border-gray-700 px-2 text-white py-2">
                     <div className="flex items-center gap-2">
                       <input
                         type="number"
                         min="0"
                         value={draftTotals[row.totalKey] ?? ""}
                         onChange={(event) => handleDraftChange(row.totalKey, event.target.value)}
-                        className="w-full min-w-[80px] rounded border border-gray-300 bg-white px-2 py-1 text-center text-gray-900 outline-none ring-0 focus:border-blue-500 dark:border-gray-600 dark:bg-black dark:text-white"
+                        className="w-full min-w-[80px] rounded border border-gray-300 bg-white px-2 py-1 text-center text-gray-900 outline-none ring-0 focus:border-blue-500 dark:border-gray-600 dark:bg-black text-white"
                         placeholder="0"
                       />
                       <button
