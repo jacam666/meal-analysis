@@ -209,7 +209,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center bg-black px-3 py-4 font-sans dark:bg-black sm:px-4 lg:px-6">
-      <main className="flex w-full max-w-3xl flex-col items-center justify-between py-18 px-16 bg-white dark:bg-black sm:items-start">
+      <main className="flex w-full max-w-3xl flex-col items-center justify-between py-18 px-16 bg-black dark:bg-black sm:items-start">
         <Image
           src="/images/3d-logo-image-removebg-preview.png"
           alt="Playground Pantry Logo"
@@ -218,7 +218,7 @@ export default function Home() {
           loading="eager"
           className="mb-8 justify-center items-center mx-auto"
         />
-        <h1 className="text-3xl md:text-6xl font-bold text-center text-black dark:text-white"
+        <h1 className="text-3xl md:text-6xl font-bold text-center text-white dark:text-white"
           style={{ fontFamily: "'Noto Serif Dives Akuru', serif" }}
         >
           Welcome to Playground Pantry Meal Analysis</h1>
@@ -226,7 +226,7 @@ export default function Home() {
 
       {mealPlans.map((plan) => (
         <div key={plan.title} className="mt-4 flex w-full max-w-6xl flex-col items-center justify-center rounded-lg bg-black px-2 py-4 dark:bg-black sm:px-4">
-          <h1 className="text-center text-2xl py-6">{plan.title}</h1>
+          <h1 className="text-center text-white text-2xl py-6">{plan.title}</h1>
           <table className="w-full border-collapse border border-gray-300 dark:border-gray-700">
             <thead>
               <tr>
