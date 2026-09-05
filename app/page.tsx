@@ -247,7 +247,7 @@ export default function Home() {
                         min="0"
                         value={draftTotals[row.totalKey] ?? ""}
                         onChange={(event) => handleDraftChange(row.totalKey, event.target.value)}
-                        className="w-full min-w-[80px] rounded border border-gray-300 bg-white px-2 py-1 text-center text-white outline-none ring-0 focus:border-blue-500 dark:border-gray-600 bg-black"
+                        className="w-full min-w-[80px] rounded border border-gray-300 bg-black px-2 py-1 text-center text-white outline-none ring-0 focus:border-blue-500 dark:border-gray-600 bg-black"
                         placeholder="0"
                       />
                       <button
