@@ -141,7 +141,7 @@ const mealPlans: MealPlan[] = [
     title: "September Meal Plan 3",
     rows: [
       { meal: "Chicken Pasta Salad", date: "21/09/26", totalKey: "sept-plan3-chicken-pasta-salad-21-09" },
-      { meal: "Pizza Bagels", date: "22/09/26", totalKey: "sept-plan3-pizza-bagels-22-09" },
+      { meal: "Pizza Bagels", date: "21/09/26", totalKey: "sept-plan3-pizza-bagels-21-09" },
       { meal: "Pepperoni Roll Ups", date: "22/09/26", totalKey: "sept-plan3-pepperoni-roll-ups-22-09" },
       { meal: "Cheese Slice", date: "22/09/26", totalKey: "sept-plan3-cheese-slice-22-09" },
       { meal: "BBQ Chicken Drumstick", date: "23/09/26", totalKey: "sept-plan3-bbq-chicken-drumstick-23-09" },
@@ -161,9 +161,19 @@ const mealPlans: MealPlan[] = [
         totalKey: "oct-plan1-spaghetti-01-10",
       },
       {
+        meal: "sweetcorn fritter",
+        date: "01/10/26",
+        totalKey: "oct-plan1-sweetcorn-fritter-01-10",
+      },
+      {
         meal: "Breaded Fish with Potato Waffles",
         date: "02/10/26",
         totalKey: "oct-plan1-fish-02-10",
+      },
+      {
+        meal: "Pizza",
+        date: "02/10/26",
+        totalKey: "oct-plan1-pizza-02-10",
       },
       {
         meal: "Salmon en croute",
@@ -171,9 +181,19 @@ const mealPlans: MealPlan[] = [
         totalKey: "oct-plan1-salmon-19-10",
       },
       {
+        meal: "Veggy Pie",
+        date: "19/10/26",
+        totalKey: "oct-plan1-veggy-pie-19-10",
+      },
+      {
         meal: "Jerk Chicken with Rice",
         date: "20/10/26",
         totalKey: "oct-plan1-jerk-chicken-20-10",
+      },
+      {
+        meal: "Sweet Curry",
+        date: "20/10/26",
+        totalKey: "oct-plan1-sweet-curry-20-10",
       },
       {
         meal: "Sausage, Mash and Gravy",
@@ -181,35 +201,60 @@ const mealPlans: MealPlan[] = [
         totalKey: "oct-plan1-sausage-21-10",
       },
       {
+        meal: "Pasta Bake",
+        date: "21/10/26",
+        totalKey: "oct-plan1-pasta-bake-21-10",
+      },
+      {
         meal: "Spaghetti Bolognese",
         date: "22/10/26",
         totalKey: "oct-plan1-spaghetti-22-10",
+      },
+      {
+        meal: "Sweetcorn Fritter",
+        date: "22/10/26",
+        totalKey: "oct-plan1-sweetcorn-fritter-22-10",
       },
       {
         meal: "Breaded Fish with Potato Waffles",
         date: "23/10/26",
         totalKey: "oct-plan1-fish-23-10",
       },
+      {
+        meal: "Pizza",
+        date: "23/10/26",
+        totalKey: "oct-plan1-pizza-23-10",
+      }
     ],
   },
   {
     title: "October Meal Plan 2",
     rows: [
       { meal: "Southern Baked Chicken/ Potato Wedges", date: "05/10/26", totalKey: "oct-plan2-southern-baked-chicken" },
+      { meal: "Cheesy Bake", date: "06/10/26", totalKey: "oct-plan2-cheesy-bake" },
       { meal: "Salmon Fish Cake", date: "06/10/26", totalKey: "oct-plan2-salmon-fish-cake" },
+      { meal: "Mini Quiche", date: "07/10/26", totalKey: "oct-plan2-mini-quiche" },
       { meal: "Chicken and Leek Pie", date: "07/10/26", totalKey: "oct-plan2-chicken-leek-pie" },
+      { meal: "Cheese Pasty", date: "08/10/26", totalKey: "oct-plan2-cheese-pasty" },
       { meal: "Beef Burrito", date: "08/10/26", totalKey: "oct-plan2-beef-burrito" },
+      { meal: "Thai Curry", date: "09/10/26", totalKey: "oct-plan2-thai-curry" },
       { meal: "Breaded Fish with Potato Waffles", date: "09/10/26", totalKey: "oct-plan2-fish-waffles" },
+      { meal: "Pizza", date: "10/10/26", totalKey: "oct-plan2-pizza" },
     ],
   },
   {
     title: "October Meal Plan 3",
     rows: [
       { meal: "Chicken Pasta Salad", date: "12/10/26", totalKey: "oct-plan3-chicken-pasta-salad" },
+      { meal: "Pizza Bagels", date: "12/10/26", totalKey: "oct-plan3-pizza-bagels" },
       { meal: "Pepperoni Roll Ups", date: "13/10/26", totalKey: "oct-plan3-pepperoni-roll-ups" },
+      { meal: "Cheese Slice", date: "13/10/26", totalKey: "oct-plan3-cheese-slice" },
       { meal: "BBQ Chicken Drumstick", date: "14/10/26", totalKey: "oct-plan3-bbq-chicken-drumstick" },
+      { meal: "Veggie Burgers", date: "14/10/26", totalKey: "oct-plan3-veggie-burgers" },
       { meal: "Lasagne", date: "15/10/26", totalKey: "oct-plan3-lasagne" },
+      { meal: "Bean Chilli", date: "15/10/26", totalKey: "oct-plan3-bean-chilli" },
       { meal: "Breaded Fish with Potato Waffles", date: "16/10/26", totalKey: "oct-plan3-fish-waffles" },
+      { meal: "Pizza", date: "16/10/26", totalKey: "oct-plan3-pizza" },
     ],
   },
 ];
