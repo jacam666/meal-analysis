@@ -208,7 +208,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex flex-col items-center justify-center bg-black px-3 py-4 font-sans dark:bg-black sm:px-4 lg:px-6">
       <main className="flex w-full max-w-3xl flex-col items-center justify-between py-18 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           src="/images/3d-logo-image-removebg-preview.png"
@@ -225,9 +225,9 @@ export default function Home() {
       </main>
 
       {mealPlans.map((plan) => (
-        <div key={plan.title} className="flex w-full flex-col items-center justify-center px-16  bg-white dark:bg-black">
-          <h1 className="text-center py-6">{plan.title}</h1>
-          <table className="w-full max-w-6xl border-collapse border border-gray-300 dark:border-gray-700">
+        <div key={plan.title} className="mt-4 flex w-full max-w-6xl flex-col items-center justify-center rounded-lg bg-black px-2 py-4 dark:bg-black sm:px-4">
+          <h1 className="text-center text-2xl py-6">{plan.title}</h1>
+          <table className="w-full border-collapse border border-gray-300 dark:border-gray-700">
             <thead>
               <tr>
                 <th className="border border-gray-300 dark:border-gray-700 px-4 py-2">Meal</th>
