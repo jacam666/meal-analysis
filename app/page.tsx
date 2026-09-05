@@ -26,9 +26,19 @@ const mealPlans: MealPlan[] = [
         totalKey: "sept-plan1-spaghetti-03-09",
       },
       {
+        meal: "Sweetcorn Fritter",
+        date: "03/09/26",
+        totalKey: "sept-plan1-sweetcorn-fritter-03-09",
+      },
+      {
         meal: "Breaded Fish with Potato Waffles",
         date: "04/09/26",
         totalKey: "sept-plan1-fish-04-09",
+      },
+      {
+        meal: "Pizza",
+        date: "04/09/26",
+        totalKey: "sept-plan1-pizza-04-09",
       },
       {
         meal: "Salmon en croute",
@@ -36,9 +46,19 @@ const mealPlans: MealPlan[] = [
         totalKey: "sept-plan1-salmon-07-09",
       },
       {
+        meal: "Veggy Pie",
+        date: "07/09/26",
+        totalKey: "sept-plan1-veggy-pie-07-09",
+      },
+      {
         meal: "Jerk Chicken with Rice",
         date: "08/09/26",
         totalKey: "sept-plan1-jerk-chicken-08-09",
+      },
+      {
+        meal: "Sweet Curry",
+        date: "08/09/26",
+        totalKey: "sept-plan1-sweet-curry-08-09",
       },
       {
         meal: "Sausage, Mash and Gravy",
@@ -46,9 +66,19 @@ const mealPlans: MealPlan[] = [
         totalKey: "sept-plan1-sausage-09-09",
       },
       {
+        meal: "Pasta Bake",
+        date: "09/09/26",
+        totalKey: "sept-plan1-pasta-bake-09-09",
+      },
+      {
         meal: "Spaghetti Bolognese",
         date: "10/09/26",
         totalKey: "sept-plan1-spaghetti-10-09",
+      },
+      {
+        meal: "Sweetcorn Fritter",
+        date: "10/09/26",
+        totalKey: "sept-plan1-sweetcorn-fritter-10-09",
       },
       {
         meal: "Breaded Fish with Potato Waffles",
@@ -56,9 +86,19 @@ const mealPlans: MealPlan[] = [
         totalKey: "sept-plan1-fish-11-09",
       },
       {
+        meal: "Pizza",
+        date: "11/09/26",
+        totalKey: "sept-plan1-pizza-11-09",
+      },
+      {
         meal: "Salmon en croute",
         date: "28/09/26",
         totalKey: "sept-plan1-salmon-28-09",
+      },
+      {
+        meal: "Veggy Pie",
+        date: "28/09/26",
+        totalKey: "sept-plan1-veggy-pie-28-09",
       },
       {
         meal: "Jerk Chicken with Rice",
@@ -66,10 +106,20 @@ const mealPlans: MealPlan[] = [
         totalKey: "sept-plan1-jerk-chicken-29-09",
       },
       {
+        meal: "Sweet Curry",
+        date: "29/09/26",
+        totalKey: "sept-plan1-sweet-curry-29-09",
+      },
+      {
         meal: "Sausage, Mash and Gravy",
         date: "30/09/26",
         totalKey: "sept-plan1-sausage-30-09",
       },
+      {
+        meal: "Pasta Bake",
+        date: "30/09/26",
+        totalKey: "sept-plan1-pasta-bake-30-09",
+      }
     ],
   },
   {
