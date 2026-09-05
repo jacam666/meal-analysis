@@ -231,7 +231,7 @@ const mealPlans: MealPlan[] = [
     title: "October Meal Plan 2",
     rows: [
       { meal: "Southern Baked Chicken/ Potato Wedges", date: "05/10/26", totalKey: "oct-plan2-southern-baked-chicken" },
-      { meal: "Cheesy Bake", date: "06/10/26", totalKey: "oct-plan2-cheesy-bake" },
+      { meal: "Cheesy Bake", date: "05/10/26", totalKey: "oct-plan2-cheesy-bake" },
       { meal: "Salmon Fish Cake", date: "06/10/26", totalKey: "oct-plan2-salmon-fish-cake" },
       { meal: "Mini Quiche", date: "07/10/26", totalKey: "oct-plan2-mini-quiche" },
       { meal: "Chicken and Leek Pie", date: "07/10/26", totalKey: "oct-plan2-chicken-leek-pie" },
